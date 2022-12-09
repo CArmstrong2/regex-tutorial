@@ -6,21 +6,21 @@ Regex is a powerful pattern-matching tool. In this brief tutorial, I will explai
 
 To match a file with a common video file extension, we will use the following regular expression:
 
-# /\.(mp4|avi|mov|webm|wmv|mpg)$/
+`/\.(mp4|avi|mov|webm|wmv|mpg)$/`
 
 This will match any file ending in a period and one of the extensions in parantheses (eg: MyVideo.mp4, MyCoolVideo.webm, x.mov). The way it works is simple.
 
-First, the entire expression is wrapped in forward slashes.  //
+First, the entire expression is wrapped in forward slashes.  `//`
 
-Next, we want to match a period. /./
+Next, we want to match a period. `/./`
 
-We want to ensure that we are matching a literal, escaped period, so we put a backslash immediate before it. /\./
+We want to ensure that we are matching a literal, escaped period, so we put a backslash immediate before it. `/\./`
 
-Now, we match the characters of a file extension. To match only .mp4 files, we do the following. /\.mp4/
+Now, we match the characters of a file extension. To match only .mp4 files, we do the following. `/\.mp4/`
 
-However, we only want to match the very end of the filename, where the file extension is located, so we will use $ to signify that. /\.mp4$/
+However, we only want to match the very end of the filename, where the file extension is located, so we will use $ to signify that. `/\.mp4$/`
 
-Finally, if we want to match multiple characters or strings, we wrap what we want to match in parantheses, and separate them with vertical bars. /\.(mp4|mov|mpg)$/
+Finally, if we want to match multiple characters or strings, we wrap what we want to match in parantheses, and separate them with vertical bars. `/\.(mp4|mov|mpg)$/`
 
 
 ## Table of Contents

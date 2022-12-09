@@ -73,4 +73,4 @@ Finally, if we want to match multiple characters or strings, we wrap what we wan
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Chris is learning to code in a web development bootcamp. You can find his work at https://github.com/CArmstrong2/
